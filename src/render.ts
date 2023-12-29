@@ -56,7 +56,7 @@ var renderGoUp = (path: string) => {
                         <td class="hideable"></td>
                         <td class="goup">
                             <a href="..">
-                                Go up
+                                上一级
                             </a>
                         </td>
                         <td class="description">&mdash;</td>

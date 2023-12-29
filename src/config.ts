@@ -2,15 +2,16 @@ import { Env, SiteConfig } from './types';
 
 export function getSiteConfig(env: Env, domain: string): SiteConfig | undefined {
     const configs: {[domain: string]: SiteConfig} = {
-        'bucketdomain.example.com': {
-            name: "Name of your website",
+        'src.mealuet.com': {
+            name: "Mealuet Filelist for Minecraft",
             bucket: env.BUCKET_bucketname,
             desp: {
-                '/': "Description of your website at default",
-                '/path': "Description of your website at /path",
-                '/path/to/file.txt': "Description of file /path/to/file.txt",
+                '/': "与 Minecraft 汉化相关的一些文件",
+                '/BetterMC': "BetterMC 整合包汉化文件",
+                '/BetterMC/BetterMC_v24hf_v1c.zip': "BetterMC [Forge] 1.20.1 v24HF v1汉化",
+                '/BetterMC/BetterMC_v24hf_v2c.zip': "BetterMC [Forge] 1.20.1 v24HF v2汉化"
             },
-            showPoweredBy: true, // Set to false to hide the "Powered by" information at footer
+            showPoweredBy: false, // Set to false to hide the "Powered by" information at footer
 
             /// [Optional] Legal information of your website
             /// Your local government (for example Mainland China) may requires you to put some legal info at footer

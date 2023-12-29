@@ -26,10 +26,10 @@ export var renderTemplFull = (files: R2Object[], folders: string[], path: string
                     <thead>
                     <tr>
                         <th class="hideable"></th>
-                        <th class="name">Name</th>
-                        <th class="description">Description</th>
-                        <th class="size">Size</th>
-                        <th class="date hideable">Modified</th>
+                        <th class="name">名称</th>
+                        <th class="description">描述</th>
+                        <th class="size">大小</th>
+                        <th class="date hideable">修改</th>
                         <th class="hideable"></th>
                     </tr>
                     </thead>

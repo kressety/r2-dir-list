@@ -6,11 +6,13 @@ export function getSiteConfig(env: Env, domain: string): SiteConfig | undefined 
             name: "Mealuet Filelist for Minecraft",
             bucket: env.BUCKET_bucketname,
             desp: {
-                '/minecraft': "与 Minecraft 汉化相关的一些文件",
+                '/minecraft': "与 Minecraft 相关的一些文件",
                 '/minecraft/BetterMC': "BetterMC 整合包汉化文件",
                 '/minecraft/BetterMC/BetterMC_v24hf_v1c.zip': "BetterMC [Forge] 1.20.1 v24HF v1汉化",
                 '/minecraft/BetterMC/BetterMC_v24hf_v2c.zip': "BetterMC [Forge] 1.20.1 v24HF v2汉化", 
-                '/minecraft/BetterMC/BetterMC_v24hf_v3c.zip': "BetterMC [Forge] 1.20.1 v24HF v3汉化"
+                '/minecraft/BetterMC/BetterMC_v24hf_v3c.zip': "BetterMC [Forge] 1.20.1 v24HF v3汉化", 
+								'/minecraft/LITV3': 'Life in the Village 3 整合包汉化文件',  
+								'/minecraft/LITV3/LITV3_v2.5a_v1c.zip': 'Life in the Village 3 v2.5a v1汉化'
             },
             showPoweredBy: false, // Set to false to hide the "Powered by" information at footer
 
